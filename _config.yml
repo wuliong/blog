@@ -1,5 +1,17 @@
 
-title: A Data Analyst's Cookbook
+title: Flying Data Analyst
 show_view_on_github: false
 show_downloads: false
 theme: jekyll-theme-modernist
+baseurl: "/blog"
+
+repository: wuliong/blog
+
+
+
+
+plugins:
+  - "jekyll-github-metadata"
+
+
+
