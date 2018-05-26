@@ -1,12 +1,13 @@
 
 title: Flying Data Analyst
+theme: jekyll-theme-modernist
+description: tips & tricks on linux, python, d3, nlp, ...
+
+encoding: UTF-8
+repository: wuliong/blog
 show_view_on_github: false
 show_downloads: false
-theme: jekyll-theme-modernist
-baseurl: "/blog"
-
-repository: wuliong/blog
-
+show_theme_author: false
 
 
 
