@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<div class="home">
+{% assign posts_count = site.posts | size %}
+{% if posts_count > 0 %}
+<div class="posts">{% for post in site.posts %}
+  <div class="post">
+    <span><a href="{{ post.url | prepend: site.baseurl }}" class="post-link"><h4 class="post-title">{{ post.title }}</h4></a></span>
+    <span><p class="post-categories">{{ post.categories | join: ", " }}</p></span>
+  </div>
+{% endfor %}</div>
+{% else %}
+<h1 class='center'>{{ site.text.index.coming_soon }}</h1>
+{% endif %}
+</div>

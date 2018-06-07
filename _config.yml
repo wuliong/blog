@@ -1,18 +1,19 @@
-
 title: Flying Data Analyst
 theme: jekyll-theme-modernist
 description: timesavers on linux, python, d3 and data science.
-
+author: Linghong Hu
+timezone: Asia/Shanghai
 encoding: UTF-8
 repository: wuliong/blog
-show_view_on_github: false
-show_downloads: false
-show_theme_author: false
+github: [metadata]
+permalink: /:slug
 
 
 
 plugins:
-  - "jekyll-github-metadata"
+  - jekyll-github-metadata
 
 
-
+text:
+  index:
+    coming_soon: 'Coming soon...'
