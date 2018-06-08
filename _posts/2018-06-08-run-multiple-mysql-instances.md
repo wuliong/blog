@@ -67,7 +67,7 @@ mysqld_multi report
 mysqld_multi stop 2
 ```
 
-if for some reason mysqld_multi cannot stop the instance, use mysqladmin instead
+if mysqld_multi cannot stop the instance, use mysqladmin instead
 ```bash
 mysqladmin -h127.0.0.1 -P1234 -uroot -p shutdown
 mysqladmin -h127.0.0.1 -P1234 -uroot -p ping
