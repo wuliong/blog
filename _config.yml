@@ -5,15 +5,12 @@ author: Linghong Hu
 timezone: Asia/Shanghai
 encoding: UTF-8
 repository: wuliong/blog
-github: [metadata]
 permalink: /:slug
 
 
+markdown: kramdown
+highlighter: rouge
+text_coming_soon: 'Coming soon...' 
 
 plugins:
   - jekyll-github-metadata
-
-
-text:
-  index:
-    coming_soon: 'Coming soon...'

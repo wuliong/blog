@@ -1,0 +1,7 @@
+.post { width: 600px; margin: 0; padding: 10px 0 0; overflow: hidden; }
+.post p:first-child {float: left; font-weight: 500;}
+.post p:first-child a { color: black;}
+.post p + p {float: right; font-style: italic;}
+
+
+.post-header {text-align: center;}
