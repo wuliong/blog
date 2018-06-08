@@ -9,7 +9,7 @@ categories: mysql
 
 *Problem*
 
-The MySQL on the server was installed long time ago and you forgot the password of root account.
+MySQL on the server was installed long time ago and you forgot the password of root account.
 
 *Solution*
 

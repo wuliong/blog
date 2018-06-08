@@ -1,4 +1,7 @@
 <header {% unless site.description %} class="without-description" {% endunless %}>
-  <h1>{{ site.title | default: site.github.repository_name }}</h1>
-  {% if site.description %}<p>{{ site.description }}</p>{% endif %}
+{% if page.url == "/" %}<h1>{{ site.title | default: site.github.repository_name }}</h1>
+{% else %}<a href="{{ site.url }}" class="site-title"><h1>{{ site.title | default: site.github.repository_name }}</h1></a>{% endif %}
+{% if site.description %}<p>{{ site.description }}</p>{% endif %}
 </header>
+
+ 
