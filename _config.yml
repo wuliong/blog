@@ -6,7 +6,7 @@ timezone: Asia/Shanghai
 encoding: UTF-8
 repository: wuliong/blog
 permalink: /:slug
-
+baseurl: "/blog"
 
 markdown: kramdown
 highlighter: rouge
