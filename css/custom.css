@@ -33,7 +33,14 @@
 
 /* style.css */
 html { background: #6C7989; background: #6C7989 linear_gradient(#6C7989, #434B55) fixed; }
-body { padding: 50px 0; margin: 0; font: 14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif; color: #555; font-weight: 300; background: inline-image("checker.png") fixed; }
+body { 
+    padding: 50px 0; 
+    margin: 0; 
+    font: 15px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    color: #555; 
+    font-weight: 300; 
+    background: inline-image("checker.png") fixed; 
+}
 .wrapper { width: 640px; margin: 0 auto; background: #DEDEDE; border-radius: 8px; box-shadow: rgba(0, 0, 0, 0.2) 0 0 0 1px, rgba(0, 0, 0, 0.45) 0 3px 10px; }
 header, section, footer { display: block; }
 a { color: #069; text-decoration: none; }
@@ -89,10 +96,11 @@ footer p + p { float: right; }
 
 
 /* custom.css */
-.post { width: 600px; margin: 0; padding: 10px 0 0; overflow: hidden; }
+.post {width: 600px; margin: 0; padding: 0; overflow: hidden;}
+.post p {margin: 0 0 6px;}
 .post p:first-child {float: left; font-weight: 500;}
 .post p:first-child a { color: black;}
 .post p + p {float: right; font-style: italic;}
-.post-title, .post-header {text-align: center; font-family: 'Fira Sans', sans-serif;}
+.post-header {text-align: center; font-family: 'Fira Sans', sans-serif;}
 
 
