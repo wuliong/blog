@@ -7,11 +7,11 @@ slug: run-multiple-mysql-instances
 categories: mysql
 ---
 
-*Problem*
+_Problem_
 
 You want to run multiple instances of MySQL on a single machine and give different users access to different mysqld servers.
 
-*Solution*
+_Solution_
 
 Create a directory for the new MySQL instance, initialize the datadir with initialize-insecure option so that it won't generate a random password for root, and change the ownership.
 
@@ -72,4 +72,3 @@ if mysqld_multi cannot stop the instance, use mysqladmin instead
 mysqladmin -h127.0.0.1 -P1234 -uroot -p shutdown
 mysqladmin -h127.0.0.1 -P1234 -uroot -p ping
 ```
- 

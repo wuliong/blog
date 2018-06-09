@@ -7,11 +7,11 @@ slug: reset-mysql-password
 categories: mysql
 ---
 
-*Problem*
+_Problem_
 
 MySQL on the server was installed long time ago and you forgot the password of root account.
 
-*Solution*
+_Solution_
 
 stop mysql server, then restart it with the skip-grant-tables option
 
