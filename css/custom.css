@@ -1,8 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,500,700");
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans|Open+Sans|Roboto');
-
-
-
 /* syntax highlighter */
 .highlight table td { padding: 5px; }
 .highlight table pre { margin: 0; }
@@ -30,7 +27,6 @@
 .highlight .na { color: #6a9fb5; }
 .highlight .m, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .il, .highlight .mo, .highlight .mb, .highlight .mx { color: #90a959; }
 .highlight .ss { color: #90a959; }
-
 /* style.css */
 html { background: #6C7989; background: #6C7989 linear_gradient(#6C7989, #434B55) fixed; }
 body { 
@@ -94,7 +90,6 @@ footer p + p { float: right; }
   header p { width: 100%; } }
 @media print { header p.view a small:before { content: 'at https://github.com/'; } }
 
-
 /* custom.css */
 .post {width: 600px; margin: 0; padding: 0; overflow: hidden;}
 .post p {margin: 0 0 6px;}
@@ -102,5 +97,3 @@ footer p + p { float: right; }
 .post p:first-child a { color: black;}
 .post p + p {float: right; font-style: italic;}
 .post-header {text-align: center; font-family: 'Fira Sans', sans-serif;}
-
-

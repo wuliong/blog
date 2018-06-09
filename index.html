@@ -10,10 +10,5 @@ layout: default
     <p class="post-categories">{{ post.categories | join: ", " }}</p>
   </div>
 {% endfor %}</div>
-{% else %}
-<h1 class='center'>{{ site.text_coming_soon }}</h1>
-{% endif %}
+{% else %}<h1 class='center'>{{ site.text_coming_soon }}</h1>{% endif %}
 </div>
-
-
- 
