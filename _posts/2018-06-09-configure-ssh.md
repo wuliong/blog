@@ -6,7 +6,6 @@ summary: configure ssh
 slug: configure-ssh
 categories: linux
 ---
-
 _Problem_
 
 You work with a remote server (linux machine) everyday, and you're tired of typing passwords over and over again. Even worse, sometimes you just can't get password right! 
