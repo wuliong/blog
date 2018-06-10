@@ -13,7 +13,7 @@ You want to run multiple instances of MySQL on a single machine and give differe
 
 _Solution_
 
-Create a directory for the new MySQL instance, initialize the datadir with initialize-insecure option so that it won't generate a random password for root, and change the ownership.
+Create a directory for the new MySQL instance, initialize the datadir with `--initialize-insecure` option so that it won't generate a random password for root, and change the ownership.
 
 ```bash
 mkdir -p /var/lib/mysql2/data
@@ -67,8 +67,19 @@ mysqld_multi report
 mysqld_multi stop 2
 ```
 
-if mysqld_multi cannot stop the instance, use mysqladmin instead
+if `mysqld_multi` cannot stop the instance, use mysqladmin instead
 ```bash
 mysqladmin -h127.0.0.1 -P1234 -uroot -p shutdown
 mysqladmin -h127.0.0.1 -P1234 -uroot -p ping
+```
+
+to troubleshoot why `mysqld_multi` is unable to stop the instance, use `--no-log` option
+```bash
+mysqld_multi stop 2 --no-log
+```
+
+chances are that you need the modify line 216 of `/usr/bin/mysqld_multi`
+```bash
+my $com= join ' ', 'my_print_defaults', @defaults_options, $group; # before
+my $com= join ' ', 'my_print_defaults -s', @defaults_options, $group; # after
 ```
