@@ -5,10 +5,7 @@ layout: default
 <div class="home">
 {% if posts_count > 0 %}
 <div class="posts">{% for post in site.posts %}
-  <div class="post">
-    <p class="post-title"><a href="{{ post.url | prepend: site.baseurl }}" class="post-link">{{ post.title }}</a></p>
-    <p class="post-categories">{{ post.categories | join: ", " }}</p>
-  </div>
+  <div class="post"><p class="post-title"><a href="{{ post.url | prepend: site.baseurl }}" class="post-link">{{ post.title }}</a></p><p class="post-categories">{{ post.categories | join: ", " }}</p></div>
 {% endfor %}</div>
 {% else %}<h1 class='center'>{{ site.text_coming_soon }}</h1>{% endif %}
 </div>
