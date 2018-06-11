@@ -3,6 +3,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>{% if page.title %}{{ page.title | strip_html }} &#8211; {% endif %}{{ site.title | strip_html }}</title>
   <link rel="stylesheet" href="{{ '/css/custom.css?v=' | append: site.github.build_revision | relative_url }}">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="{{ site.author }}">
   {% if page.categories %}<meta name="keywords" content="{{ page.categories | join: ', ' }}">{% endif %}

@@ -1,5 +1,63 @@
-@import url("https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,500,700");
-@import url('https://fonts.googleapis.com/css?family=Fira+Sans|Roboto');
+@font-face {
+  font-family: "Fira Sans";
+  src: url("webfonts/FiraSans-Regular.eot");
+  src: url("webfonts/FiraSans-Regular.eot?#iefix") format("embedded-opentype"),
+       url("webfonts/FiraSans-Regular.woff") format("woff"), 
+       url("webfonts/FiraSans-Regular.ttf") format("truetype"),
+       url("webfonts/FiraSans-Regular.svg#FiraSans-Regular") format("svg");
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  font-weight: bold;
+  src: url("webfonts/FiraSans-Bold.eot");
+  src: url("webfonts/FiraSans-Bold.eot?#iefix") format("embedded-opentype"),
+       url("webfonts/FiraSans-Bold.woff") format("woff"), 
+       url("webfonts/FiraSans-Bold.ttf") format("truetype"),
+       url("webfonts/FiraSans-Bold.svg#FiraSans-Bold") format("svg");
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  font-style: italic;
+  src: url("webfonts/FiraSans-Italic.eot");
+  src: url("webfonts/FiraSans-Italic.eot?#iefix") format("embedded-opentype"),
+       url("webfonts/FiraSans-Italic.woff") format("woff"), 
+       url("webfonts/FiraSans-Italic.ttf") format("truetype"),
+       url("webfonts/FiraSans-Italic.svg#FiraSans-Italic") format("svg");
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("webfonts/Lato-Regular.eot");
+  src: url("webfonts/Lato-Regular.eot?#iefix") format("embedded-opentype"),
+       url("webfonts/Lato-Regular.woff") format("woff"), 
+       url("webfonts/Lato-Regular.ttf") format("truetype"),
+       url("webfonts/Lato-Regular.svg#Lato-Regular") format("svg");
+}
+
+@font-face {
+  font-family: "Lato";
+  font-weight: bold;
+  src: url("webfonts/Lato-Bold.eot");
+  src: url("webfonts/Lato-Bold.eot?#iefix") format("embedded-opentype"),
+       url("webfonts/Lato-Bold.woff") format("woff"), 
+       url("webfonts/Lato-Bold.ttf") format("truetype"),
+       url("webfonts/Lato-Bold.svg#Lato-Bold") format("svg");
+}
+
+@font-face {
+  font-family: "Lato";
+  font-style: italic;
+  src: url("webfonts/Lato-Italic.eot");
+  src: url("webfonts/Lato-Italic.eot?#iefix") format("embedded-opentype"),
+       url("webfonts/Lato-Italic.woff") format("woff"), 
+       url("webfonts/Lato-Italic.ttf") format("truetype"),
+       url("webfonts/Lato-Italic.svg#Lato-Italic") format("svg");
+}
+
+
+
 /* syntax highlighter */
 .highlight table td { padding: 5px; }
 .highlight table pre { margin: 0; }
@@ -93,7 +151,8 @@ footer p + p { float: right; }
 /* custom.css */
 .post {width: 600px; margin: 0; padding: 0; overflow: hidden;}
 .post p {margin: 0 0 6px;}
-.post p:first-child {float: left; font-weight: 500;}
-.post p:first-child a { color: black;}
+.post p:first-child {float: left;}
+.post p:first-child a { color: #555;}
 .post p + p {float: right; font-style: italic;}
 .post-header {text-align: center; font-family: 'Fira Sans', sans-serif;}
+
