@@ -1,20 +1,11 @@
+/* 
 @font-face {
   font-family: "Fira Sans";
   src: url("webfonts/FiraSans-Regular.eot");
-  src: url("webfonts/FiraSans-Regular.eot?#iefix") format("embedded-opentype"),
+  src: url("webfonts/FiraSans-Regular.eot?#iefix") format("embeded-opentype"),
        url("webfonts/FiraSans-Regular.woff") format("woff"), 
        url("webfonts/FiraSans-Regular.ttf") format("truetype"),
        url("webfonts/FiraSans-Regular.svg#FiraSans-Regular") format("svg");
-}
-
-@font-face {
-  font-family: "Fira Sans";
-  font-weight: bold;
-  src: url("webfonts/FiraSans-Bold.eot");
-  src: url("webfonts/FiraSans-Bold.eot?#iefix") format("embedded-opentype"),
-       url("webfonts/FiraSans-Bold.woff") format("woff"), 
-       url("webfonts/FiraSans-Bold.ttf") format("truetype"),
-       url("webfonts/FiraSans-Bold.svg#FiraSans-Bold") format("svg");
 }
 
 @font-face {
@@ -26,6 +17,19 @@
        url("webfonts/FiraSans-Italic.ttf") format("truetype"),
        url("webfonts/FiraSans-Italic.svg#FiraSans-Italic") format("svg");
 }
+*/
+
+@font-face {
+  font-family: "Fira Sans";
+  font-weight: bold;
+  src: url("webfonts/FiraSans-Bold.eot");
+  src: url("webfonts/FiraSans-Bold.eot?#iefix") format("embedded-opentype"),
+       url("webfonts/FiraSans-Bold.woff") format("woff"), 
+       url("webfonts/FiraSans-Bold.ttf") format("truetype"),
+       url("webfonts/FiraSans-Bold.svg#FiraSans-Bold") format("svg");
+}
+
+
 
 @font-face {
   font-family: "Lato";
