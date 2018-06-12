@@ -1,7 +1,29 @@
 <head>
+  {% assign webfonts = '/css/webfonts/' | relative_url  %}
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>{% if page.title %}{{ page.title | strip_html }} &#8211; {% endif %}{{ site.title | strip_html }}</title>
+  <style>
+    @font-face {
+      font-family: "Fira Sans";
+      font-weight: bold;
+      src: url("{{ webfonts }}FiraSans-Bold.eot?#iefix") format("embedded-opentype"), url("{{ webfonts }}FiraSans-Bold.woff") format("woff"), url("{{ webfonts }}FiraSans-Bold.ttf") format("truetype"), url("{{ webfonts }}FiraSans-Bold.svg#FiraSans-Bold") format("svg");
+      }
+    @font-face {
+      font-family: "Lato";
+      src: url("{{ webfonts }}Lato-Regular.eot?#iefix") format("embedded-opentype"), url("{{ webfonts }}Lato-Regular.woff") format("woff"), url("{{ webfonts }}Lato-Regular.ttf") format("truetype"), url("{{ webfonts }}Lato-Regular.svg#Lato-Regular") format("svg");
+      }
+    @font-face {
+      font-family: "Lato";
+      font-weight: bold;
+      src: url("webfonts/Lato-Bold.eot?#iefix") format("embedded-opentype"), url("webfonts/Lato-Bold.woff") format("woff"), url("webfonts/Lato-Bold.ttf") format("truetype"), url("webfonts/Lato-Bold.svg#Lato-Bold") format("svg");
+      }
+    @font-face {
+      font-family: "Lato";
+      font-style: italic;
+      src: url("webfonts/Lato-Italic.eot?#iefix") format("embedded-opentype"), url("webfonts/Lato-Italic.woff") format("woff"), url("webfonts/Lato-Italic.ttf") format("truetype"), url("webfonts/Lato-Italic.svg#Lato-Italic") format("svg");
+    }
+  </style>
   <link rel="stylesheet" href="{{ '/css/custom.css?v=' | append: site.github.build_revision | relative_url }}">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
