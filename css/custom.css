@@ -16,8 +16,7 @@
        url("webfonts/FiraSans-Italic.woff") format("woff"), 
        url("webfonts/FiraSans-Italic.ttf") format("truetype"),
        url("webfonts/FiraSans-Italic.svg#FiraSans-Italic") format("svg");
-}
-*/
+} */
 
 @font-face {
   font-family: "Fira Sans";
@@ -28,9 +27,6 @@
        url("webfonts/FiraSans-Bold.ttf") format("truetype"),
        url("webfonts/FiraSans-Bold.svg#FiraSans-Bold") format("svg");
 }
-
-
-
 @font-face {
   font-family: "Lato";
   src: url("webfonts/Lato-Regular.eot");
@@ -39,7 +35,6 @@
        url("webfonts/Lato-Regular.ttf") format("truetype"),
        url("webfonts/Lato-Regular.svg#Lato-Regular") format("svg");
 }
-
 @font-face {
   font-family: "Lato";
   font-weight: bold;
@@ -49,7 +44,6 @@
        url("webfonts/Lato-Bold.ttf") format("truetype"),
        url("webfonts/Lato-Bold.svg#Lato-Bold") format("svg");
 }
-
 @font-face {
   font-family: "Lato";
   font-style: italic;
@@ -59,8 +53,6 @@
        url("webfonts/Lato-Italic.ttf") format("truetype"),
        url("webfonts/Lato-Italic.svg#Lato-Italic") format("svg");
 }
-
-
 
 /* syntax highlighter */
 .highlight table td { padding: 5px; }
