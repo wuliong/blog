@@ -32,7 +32,7 @@ split -n l/5 test.txt OUT_
 split -n l/3/5 test.txt OUT_ # split into 5 pieces and output 3rd to stdout
 ```
 
-The _suffix_ of output files will be 'aa', 'ab', 'ac', etc. To use digits in suffixes,
+The _suffix_ of output files will be _aa_, _ab_, _ac_, etc. To use digits in suffixes,
 ```bash 
 split -l K FILENAME [prefix] -d # use 00, 01, 02 ...
 split -l K FILENAME [prefix] --numeric-suffixes=F # use digits starting with F
