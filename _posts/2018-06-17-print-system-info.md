@@ -25,8 +25,7 @@ hostname # print the name of the current host system
 hostname STRING # sets the current hostname to the specified string
 hostid # numeric identifier of the current host in hexadecimal
 ```
-
-other info about the system
+some more 
 ```bash
 uptime -p # show the system's uptime in pretty format
 uptime -s # show system up since, in yyyy-mm-dd HH:MM:SS format
