@@ -25,11 +25,19 @@ hostname # print the name of the current host system
 hostname STRING # sets the current hostname to the specified string
 hostid # numeric identifier of the current host in hexadecimal
 ```
-some more 
+since when and for how long has the sytem been up 
 ```bash
 uptime -p # show the system's uptime in pretty format
 uptime -s # show system up since, in yyyy-mm-dd HH:MM:SS format
 uptime # current time, how long the system has been running, how many users 
        # are currently logged in, and the system load averages for the past 
        # 1, 5, and 15 minutes
+```
+
+to know how much disk space is available and how it has been used
+
+```bash
+df # disked space used on all currently mounted file systems
+df -h # print sizes in human readable format
+df --total # print a grand total at the end
 ```
