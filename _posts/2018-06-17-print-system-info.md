@@ -40,4 +40,15 @@ to know how much disk space is available and how it has been used
 df # disked space used on all currently mounted file systems
 df -h # print sizes in human readable format
 df --total # print a grand total at the end
+du # amount of disk space used by current directory and every subdirectory
+du -a # show counts for all files, not just directories
+du -c # print a grand total at the end
+du --max-depth=K # show counts for directory that is at most MAX_DEPTH levels 
+                 # down from the root of the hierarchy. The root is at level 0, 
+                 # so du --max-depth=0 is equivalent to du -s
+du -s # print only a total
+du -t size # print entries with a size greater than or equal to that
+du --time # show most recent modification timestamp
+du --time=access # show most recent access tiemstamp
+du --exclude=pattern # skip subdirectories or files matching pattern
 ```
